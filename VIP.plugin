@@ -6,6 +6,6 @@ hostname =spclient.wg.spotify.com, mobile.flightradar24.com
 [Script]
 http-request ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js, timeout=10, tag=spotifyJson
 http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=spotifyProto
-http-response ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) script-path=https://github.com/ddgksf2013/dev/raw/main/flightradar24.js, requires-body=true, binary-body-mode=true, timeout=10, tag=flightradar24
+http-response ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) script-path=https://github.com/ddgksf2013/dev/raw/main/flightradar24.js, requires-body=true, timeout=30, tag=flightradar24
 
 
