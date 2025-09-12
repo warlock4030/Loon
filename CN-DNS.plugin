@@ -1,4 +1,4 @@
-#!name= CN-DnsHostmap
+#!name= DNSHostMap
 #!desc= 中国服务DNS分流
 #!author= UDK0O0
 #!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Magic.png
@@ -103,7 +103,7 @@ weibo.com = server:https://doh.pub/dns-query
 *.sohu.com = server:https://doh.pub/dns-query
 *.csdn.com = server:https://doh.pub/dns-query
 *.gepush.com = server:https://dns.alidns.com/dns-query
-*.getui.com = server:https://dns.alidns.com/dns-query
+*.getui.net = server:https://dns.alidns.com/dns-query
 *.sogou.com = server:https://doh.pub/dns-query
 *.zijieapi.com = server:https://dns.alidns.com/dns-query
 ## 全局
