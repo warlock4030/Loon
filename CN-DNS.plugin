@@ -102,6 +102,10 @@ weibo.com = server:https://doh.pub/dns-query
 *.gov.cn = server:https://doh.pub/dns-query
 *.sohu.com = server:https://doh.pub/dns-query
 *.csdn.com = server:https://doh.pub/dns-query
+*.gepush.com = server:https://dns.alidns.com/dns-query
+*.getui.com = server:https://dns.alidns.com/dns-query
+*.sogou.com = server:https://doh.pub/dns-query
+*.zijieapi.com = server:https://dns.alidns.com/dns-query
 ## 全局
 *.ys7.com = server:https://dns.alidns.com/dns-query
 *.cn = server:https://doh.pub/dns-query
