@@ -1,7 +1,8 @@
-#!name= DNSHostMap
-#!desc= 中国服务DNS分流
+#!name= 🌐 DNS Enhanced
+#!desc= 常用中国服务DNS分流
 #!author= UDK0O0
-#!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Magic.png
+#!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
+#!tag= DNS
 
 
 
