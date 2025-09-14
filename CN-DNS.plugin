@@ -24,15 +24,15 @@
 *.aliyundrive.com = server:https://dns.alidns.com/dns-query
 *.dingtalk.com = server:https://dns.alidns.com/dns-query
 ## 腾讯系
-*.qq.com = server:https://doh.pub/dns-query
-*.tencent.com = server:https://doh.pub/dns-query
-*.weixin.com = server:https://doh.pub/dns-query
-*.wechat.com = server:https://doh.pub/dns-query
-*.tenpay.com = server:https://doh.pub/dns-query
-*.weiyun.com = server:https://doh.pub/dns-query
-*.gtimg.cn = server:https://doh.pub/dns-query
-*.idqqimg.com = server:https://doh.pub/dns-query
-*.gcloudsdk.com = server:https://doh.pub/dns-query
+*.qq.com = server:https://1.12.12.12/dns-query
+*.tencent.com = server:https://1.12.12.12/dns-query
+*.weixin.com = server:https://1.12.12.12/dns-query
+*.wechat.com = server:https://1.12.12.12/dns-query
+*.tenpay.com = server:https://1.12.12.12/dns-query
+*.weiyun.com = server:https://1.12.12.12/dns-query
+*.gtimg.cn = server:https://1.12.12.12/dns-query
+*.idqqimg.com = server:https://1.12.12.12/dns-query
+*.gcloudsdk.com = server:https://1.12.12.12/dns-query
 ## bilibili
 *.bilibili.com = server:https://doh.pub/dns-query
 *.bilivideo.com = server:https://doh.pub/dns-query
@@ -109,4 +109,4 @@ weibo.com = server:https://doh.pub/dns-query
 *.zijieapi.com = server:https://dns.alidns.com/dns-query
 ## 全局
 *.ys7.com = server:https://dns.alidns.com/dns-query
-*.cn = server:https://doh.pub/dns-query
+*.cn = server:https://223.6.6.6:443/dns-query#h3=true
