@@ -5,102 +5,102 @@
 
 [Host]
 ## 米忽悠
-*.bh3.com = server:h3://223.5.5.5:443
-*.mihoyo.com = server:h3://223.5.5.5:443
-*.yuanshen.com = server:h3://223.5.5.5:443
-*-os.yuanshen.com = server:h3://223.5.5.5:443
+*.bh3.com = server:h3://223.6.6.6:443/dns-query
+*.mihoyo.com = server:h3://223.5.5.5:443/dns-query
+*.yuanshen.com = server:h3://223.5.5.5:443/dns-query
+*-os.yuanshen.com = server:h3://223.5.5.5:443/dns-query
 ## 阿里系
-*.taobao.com = server:h3://223.6.6.6:443
-*.tmall.com = server:h3://223.6.6.6:443
-*.alipay.com = server:h3://223.6.6.6:443
-*.alicdn.com = server:h3://223.6.6.6:443
-*.aliyun.com = server:h3://223.6.6.6:443
-*.aliyundrive.com = server:h3://223.6.6.6:443
-*.dingtalk.com = server:h3://223.6.6.6:443
+*.taobao.com = server:h3://223.6.6.6:443/dns-query
+*.tmall.com = server:h3://223.6.6.6:443/dns-query
+*.alipay.com = server:h3://223.6.6.6:443/dns-query
+*.alicdn.com = server:h3://223.6.6.6:443/dns-query
+*.aliyun.com = server:h3://223.6.6.6:443/dns-query
+*.aliyundrive.com = server:h3://223.6.6.6:443/dns-query
+*.dingtalk.com = server:h3://223.6.6.6:443/dns-query
 ## 腾讯系
-*.qq.com = server:h3://223.6.6.6:443
-*.tencent.com = server:h3://223.6.6.6:443
-*.weixin.com = server:h3://223.6.6.6:443
-*.wechat.com = server:h3://223.6.6.6:443
-*.tenpay.com = server:h3://223.6.6.6:443
-*.weiyun.com = server:h3://223.6.6.6:443
-*.gtimg.cn = server:h3://223.6.6.6:443
-*.idqqimg.com = server:h3://223.6.6.6:443
-*.gcloudsdk.com = server:h3://223.6.6.6:443
+*.qq.com = server:h3://223.6.6.6:443/dns-query
+*.tencent.com = server:h3://223.6.6.6:443/dns-query
+*.weixin.com = server:h3://223.6.6.6:443/dns-query
+*.wechat.com = server:h3://223.6.6.6:443/dns-query
+*.tenpay.com = server:h3://223.6.6.6:443/dns-query
+*.weiyun.com = server:h3://223.6.6.6:443/dns-query
+*.gtimg.cn = server:h3://223.6.6.6:443/dns-query
+*.idqqimg.com = server:h3://223.6.6.6:443/dns-query
+*.gcloudsdk.com = server:h3://223.6.6.6:443/dns-query
 ## bilibili
-*.bilibili.com = server:h3://223.5.5.5:443
-*.bilivideo.com = server:h3://223.5.5.5:443
-*.bilivideo.cn = server:h3://223.5.5.5:443
-*.hdslb.com = server:h3://223.5.5.5:443
-*.b23.tv = server:h3://223.5.5.5:443
-b23.tv = server:h3://223.5.5.5:443
-*.biliapi.net = server:h3://223.5.5.5:443
-*.static.geetest.com = server:h3://223.5.5.5:443
+*.bilibili.com = server:h3://223.5.5.5:443/dns-query
+*.bilivideo.com = server:h3://223.5.5.5:443/dns-query
+*.bilivideo.cn = server:h3://223.5.5.5:443/dns-query
+*.hdslb.com = server:h3://223.5.5.5:443/dns-query
+*.b23.tv = server:h3://223.5.5.5:443/dns-query
+b23.tv = server:h3://223.5.5.5:443/dns-query
+*.biliapi.net = server:h3://223.5.5.5:443/dns-query
+*.static.geetest.com = server:h3://223.5.5.5:443/dns-query
 ## sina
-*.weibo.com = server:h3://223.5.5.5:443
-*.miaopai.com = server:h3://223.5.5.5:443
-weibo.com = server:h3://223.5.5.5:443
-*.weibo.cn = server:h3://223.5.5.5:443
-*.weibocdn.com = server:h3://223.5.5.5:443
-*.sinaimg.com = server:h3://223.5.5.5:443
-*.miaopai.com = server:h3://223.5.5.5:443
-*.sina.com.cn = server:h3://223.5.5.5:443
-*.sinajs.cn = server:h3://223.5.5.5:443
+*.weibo.com = server:h3://223.5.5.5:443/dns-query
+*.miaopai.com = server:h3://223.5.5.5:443/dns-query
+weibo.com = server:h3://223.5.5.5:443/dns-query
+*.weibo.cn = server:h3://223.5.5.5:443/dns-query
+*.weibocdn.com = server:h3://223.5.5.5:443/dns-query
+*.sinaimg.com = server:h3://223.5.5.5:443/dns-query
+*.miaopai.com = server:h3://223.5.5.5:443/dns-query
+*.sina.com.cn = server:h3://223.5.5.5:443/dns-query
+*.sinajs.cn = server:h3://223.5.5.5:443/dns-query
 ## zhihu
-*.zhihu.com = server:h3://223.5.5.5:443
-*.zhimg.com = server:h3://223.5.5.5:443
+*.zhihu.com = server:h3://223.5.5.5:443/dns-query
+*.zhimg.com = server:h3://223.5.5.5:443/dns-query
 ## sspai
-*.sspai.com = server:h3://223.5.5.5:443
+*.sspai.com = server:h3://223.5.5.5:443/dns-query
 ## 喜马拉雅
-*.xmcdn.com = server:h3://223.5.5.5:443
-*.ximalaya.com = server:h3://223.5.5.5:443
+*.xmcdn.com = server:h3://223.5.5.5:443/dns-query
+*.ximalaya.com = server:h3://223.5.5.5:443/dns-query
 ## xiaomi
-*.xiaomi.com = server:h3://223.5.5.5:443
-*.mi.com = server:h3://223.5.5.5:443
-*.miwifi.com = server:h3://223.5.5.5:443
+*.xiaomi.com = server:h3://223.5.5.5:443/dns-query
+*.mi.com = server:h3://223.5.5.5:443/dns-query
+*.miwifi.com = server:h3://223.5.5.5:443/dns-query
 # douban
-*.douban.com = server:h3://223.5.5.5:443
-*.doubanio.com = server:h3://223.5.5.5:443
-*.douc.cc = server:h3://223.5.5.5:443
+*.douban.com = server:h3://223.5.5.5:443/dns-query
+*.doubanio.com = server:h3://223.5.5.5:443/dns-query
+*.douc.cc = server:h3://223.5.5.5:443/dns-query
 ## baidu
-*.baidu.com = server:h3://223.5.5.5:443
-*.bdimg.com = server:h3://223.5.5.5:443
-*.bdstatic.com = server:h3://223.5.5.5:443
-*.bcebos.com = server:h3://223.5.5.5:443
+*.baidu.com = server:h3://223.5.5.5:443/dns-query
+*.bdimg.com = server:h3://223.5.5.5:443/dns-query
+*.bdstatic.com = server:h3://223.5.5.5:443/dns-query
+*.bcebos.com = server:h3://223.5.5.5:443/dns-query
 ## nga
-#*.nga.178.com = server:h3://223.5.5.5:443
-*.ngacn.cc = server:h3://223.5.5.5:443
-*.178.com = server:h3://223.5.5.5:443
+#*.nga.178.com = server:h3://223.5.5.5:443/dns-query
+*.ngacn.cc = server:h3://223.5.5.5:443/dns-query
+*.178.com = server:h3://223.5.5.5:443/dns-query
 ## jd
-*.jd.com = server:h3://223.5.5.5:443
-*.jdcloud.com = server:h3://223.5.5.5:443
-*.jd.hk = server:h3://223.5.5.5:443
-*.360buyimg.com = server:h3://223.5.5.5:443
+*.jd.com = server:h3://223.5.5.5:443/dns-query
+*.jdcloud.com = server:h3://223.5.5.5:443/dns-query
+*.jd.hk = server:h3://223.5.5.5:443/dns-query
+*.360buyimg.com = server:h3://223.5.5.5:443/dns-query
 ## 爱奇艺
-*.iqiyi.com = server:h3://223.5.5.5:443
-*.qiyi.com = server:h3://223.5.5.5:443
-*.iqiyipic.com = server:h3://223.5.5.5:443
-*.qiyipic.com = server:h3://223.5.5.5:443
-*.ppsimg.com = server:h3://223.5.5.5:443
+*.iqiyi.com = server:h3://223.5.5.5:443/dns-query
+*.qiyi.com = server:h3://223.5.5.5:443/dns-query
+*.iqiyipic.com = server:h3://223.5.5.5:443/dns-query
+*.qiyipic.com = server:h3://223.5.5.5:443/dns-query
+*.ppsimg.com = server:h3://223.5.5.5:443/dns-query
 ## 其他
-*.163.com = server:h3://223.5.5.5:443
-*.126.com = server:h3://223.5.5.5:443
-*.126.net = server:h3://223.5.5.5:443
-*.127.net = server:h3://223.5.5.5:443
-*.95516.com = server:h3://223.5.5.5:443
-*.netease.com = server:h3://223.5.5.5:443
-*.caiyunapp.com = server:h3://223.5.5.5:443
-*.ithome.com = server:h3://223.5.5.5:443
-*.abchina.com = server:h3://223.5.5.5:443
-*.10010.com = server:h3://223.5.5.5:443
-*.10010.cn = server:h3://223.5.5.5:443
-*.gov.cn = server:h3://223.5.5.5:443
-*.sohu.com = server:h3://223.5.5.5:443
-*.csdn.com = server:h3://223.5.5.5:443
-*.gepush.com = server:h3://223.6.6.6:443
-*.getui.net = server:h3://223.6.6.6:443
-*.sogou.com = server:h3://223.5.5.5:443
-*.zijieapi.com = server:h3://223.6.6.6:443
+*.163.com = server:h3://223.5.5.5:443/dns-query
+*.126.com = server:h3://223.5.5.5:443/dns-query
+*.126.net = server:h3://223.5.5.5:443/dns-query
+*.127.net = server:h3://223.5.5.5:443/dns-query
+*.95516.com = server:h3://223.5.5.5:443/dns-query
+*.netease.com = server:h3://223.5.5.5:443/dns-query
+*.caiyunapp.com = server:h3://223.5.5.5:443/dns-query
+*.ithome.com = server:h3://223.5.5.5:443/dns-query
+*.abchina.com = server:h3://223.5.5.5:443/dns-query
+*.10010.com = server:h3://223.5.5.5:443/dns-query
+*.10010.cn = server:h3://223.5.5.5:443/dns-query
+*.gov.cn = server:h3://223.5.5.5:443/dns-query
+*.sohu.com = server:h3://223.5.5.5:443/dns-query
+*.csdn.com = server:h3://223.5.5.5:443/dns-query
+*.gepush.com = server:h3://223.6.6.6:443/dns-query
+*.getui.net = server:h3://223.6.6.6:443/dns-query
+*.sogou.com = server:h3://223.5.5.5:443/dns-query
+*.zijieapi.com = server:h3://223.6.6.6:443/dns-query
 ## 全局
-*.ys7.com = server:h3://223.6.6.6:443
-*.cn = server:h3://223.6.6.6:443
+*.ys7.com = server:h3://223.6.6.6:443/dns-query
+*.cn = server:h3://223.6.6.6:443/dns-query
