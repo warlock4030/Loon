@@ -1,14 +1,12 @@
-#!name=Google重定向
-#!desc=Safari Search
+#!name=Google Rewrite
+#!desc=Safari 谷歌搜索重定向
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1071.png
+#!system=ios
 
-#!system=iOS, iPadOS, macOS
-#!icon= https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Safari.png
-
-[URL Rewrite]
-
-^g.cn.+ https://www.google.com/ncr 302
-^*.g.cn.+ https://www.google.com/ncr 302
+[Rewrite]
+^https?://(www\.)?g\.cn https://www.google.com 302
+^https?://(www\.)?google\.cn https://www.google.com 302
+^https?://(www\.)?google\.cn/search https://www.google.com/search 302
 
 [MITM]
-hostname = g.cn
-hostname = *.g.cn
+hostname = www.google.cn, www.g.cn
