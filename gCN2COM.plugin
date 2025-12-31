@@ -1,6 +1,6 @@
 #!name=Google Rewrite
 #!desc=Safari 谷歌搜索重定向
-#!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google.png
+#!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
 #!system=ios
 
 [Rewrite]
