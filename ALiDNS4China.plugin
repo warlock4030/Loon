@@ -1,15 +1,29 @@
 #!name= AliDNS4CN
-#!desc= ³£ÓÃÖĞ¹ú·şÎñ²ÉÓÃ°¢ÀïDNS½âÎö
+#!desc= å¸¸ç”¨ä¸­å›½æœåŠ¡é‡‡ç”¨é˜¿é‡ŒDNSè§£æ
 #!author= UDK0O0
 #!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
 
 [Host]
-## Ã×ºöÓÆ
+
+oscp.apple.com = 127.0.0ï¼Œ1
+oscp2.appe.com = 127.0.0ï¼Œ1
+ocsp-lb.apple.com.akadns.net = 127.0.0ï¼Œ1
+ocsp2-lb.apple.com.akadns.net = 127.0.0ï¼Œ1
+valid.apple.com = 127.0.0ï¼Œ1
+crl.apple.com = 127.0.0ï¼Œ1
+crl-lb.apple.com.akadns.net = 127.0.0ï¼Œ1
+certs-lb.apple.com.akadns.net = 127.0.0ï¼Œ1
+crl.entrust.net = 127.0.0ï¼Œ1
+certs.apple.com = 127.0.0ï¼Œ1
+appattest.apple.com = 127.0.0ï¼Œ1
+
+
+## ç±³å¿½æ‚ 
 *.bh3.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.mihoyo.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.yuanshen.com = server:https://223.5.5.5:443/dns-query#h3=true
 *-os.yuanshen.com = server:https://223.5.5.5:443/dns-query#h3=true
-## °¢ÀïÏµ
+## é˜¿é‡Œç³»
 *.taobao.com = server:https://223.6.6.6:443/dns-query#h3=true
 *.tmall.com = server:https://223.6.6.6:443/dns-query#h3=true
 *.alipay.com = server:https://223.6.6.6:443/dns-query#h3=true
@@ -17,7 +31,7 @@
 *.aliyun.com = server:https://223.6.6.6:443/dns-query#h3=true
 *.aliyundrive.com = server:https://223.6.6.6:443/dns-query#h3=true
 *.dingtalk.com = server:https://223.6.6.6:443/dns-query#h3=true
-## ÌÚÑ¶Ïµ
+## è…¾è®¯ç³»
 *.qq.com = server:https://223.6.6.6:443/dns-query#h3=true
 *.tencent.com = server:https://223.6.6.6:443/dns-query#h3=true
 *.weixin.com = server:https://223.6.6.6:443/dns-query#h3=true
@@ -51,7 +65,7 @@ weibo.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.zhimg.com = server:https://223.5.5.5:443/dns-query#h3=true
 ## sspai
 *.sspai.com = server:https://223.5.5.5:443/dns-query#h3=true
-## Ï²ÂíÀ­ÑÅ
+## å–œé©¬æ‹‰é›…
 *.xmcdn.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.ximalaya.com = server:https://223.5.5.5:443/dns-query#h3=true
 ## xiaomi
@@ -76,13 +90,13 @@ weibo.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.jdcloud.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.jd.hk = server:https://223.5.5.5:443/dns-query#h3=true
 *.360buyimg.com = server:https://223.5.5.5:443/dns-query#h3=true
-## °®ÆæÒÕ
+## çˆ±å¥‡è‰º
 *.iqiyi.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.qiyi.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.iqiyipic.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.qiyipic.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.ppsimg.com = server:https://223.5.5.5:443/dns-query#h3=true
-## ÆäËû
+## å…¶ä»–
 *.163.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.126.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.126.net = server:https://223.5.5.5:443/dns-query#h3=true
@@ -101,6 +115,12 @@ weibo.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.getui.net = server:https://223.6.6.6:443/dns-query#h3=true
 *.sogou.com = server:https://223.5.5.5:443/dns-query#h3=true
 *.zijieapi.com = server:https://223.6.6.6:443/dns-query#h3=true
-## È«¾Ö
+## å…¨å±€
 *.ys7.com = server:https://223.6.6.6:443/dns-query#h3=true
+
 *.cn = server:https://223.6.6.6:443/dns-query#h3=true
+
+
+
+
+
