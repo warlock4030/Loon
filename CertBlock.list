@@ -1,9 +1,12 @@
 # NAME: AppleRev
-
 DOMAIN,oscp.apple.com
 DOMAIN,oscp2.appe.com
+DOMAIN,ocsp-lb.apple.com.akadns.net
+DOMAIN,ocsp2-lb.apple.com.akadns.net
 DOMAIN,valid.apple.com
 DOMAIN,crl.apple.com
+DOMAIN,crl-lb.apple.com.akadns.net
+DOMAIN,certs-lb.apple.com.akadns.net
 DOMAIN,crl.entrust.net
 DOMAIN,certs.apple.com
 DOMAIN,appattest.apple.com
