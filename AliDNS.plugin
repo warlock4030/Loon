@@ -4,6 +4,17 @@
 #!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
 
 [Host]
+oscp.apple.com = 127.0.0.1
+oscp2.appe.com = 127.0.0.1
+ocsp-lb.apple.com.akadns.net = 127.0.0.1
+ocsp2-lb.apple.com.akadns.net = 127.0.0.1
+valid.apple.com = 127.0.0.1
+crl.apple.com = 127.0.0.1
+crl-lb.apple.com.akadns.net = 127.0.0.1
+certs-lb.apple.com.akadns.net = 127.0.0.1
+crl.entrust.net = 127.0.0.1
+certs.apple.com = 127.0.0.1
+appattest.apple.com = 127.0.0.1
 ## 米忽悠
 *.bh3.com = server:h3://223.6.6.6:443/dns-query
 *.mihoyo.com = server:h3://223.5.5.5:443/dns-query
