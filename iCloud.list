@@ -56,3 +56,6 @@ DOMAIN-SUFFIX,myicloud.net
 DOMAIN-SUFFIX,mylcloud.net
 DOMAIN-SUFFIX,www-cdn.icloud.com.akadns.net
 DOMAIN-SUFFIX,wwwicloud.com
+#appStore
+DOMAIN,apps.apple.com
+DOMAIN,itunes.apple.com
