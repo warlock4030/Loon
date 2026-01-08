@@ -72,3 +72,8 @@ DOMAIN-SUFFIX,music.apple.com
 USER-AGENT,Music*
 #Push
 DOMAIN-SUFFIX,push.apple.com
+#AppleID
+DOMAIN,appleid.apple.com
+DOMAIN,appleid.cdn-apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,idmsa.apple.com
