@@ -8,6 +8,7 @@
 AND,((OR,((DOMAIN-SUFFIX,spotify.com),(DOMAIN-SUFFIX,spotifycdn.com),(DOMAIN-SUFFIX,scdn.co),(DOMAIN-SUFFIX,spotify.com.edgesuite.net))),(PROTOCOL,QUIC)),REJECT
 
 [Rewrite]
+^https:\/\/(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?\/pendragon\/ reject-dict
 ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$ header-del if-none-match
 
 [Mitm]
