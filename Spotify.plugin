@@ -6,6 +6,10 @@
 [Rewrite]
 ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$ header-del if-none-match
 
+
+[Rules]
+AND,((DOMAIN-SUFFIX, spotify.com), (PROTOCOL, QUIC)),REJECT
+
 [Mitm]
 hostname =spclient.wg.spotify.com, *spclient.spotify.com
 
