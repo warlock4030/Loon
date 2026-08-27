@@ -1,8 +1,8 @@
-#!name=Spotify(>=iOS15)
+#!name=Spotify解锁去广告
 #!desc=2025.06.27 部分解锁premium,音质不能设置为超高(建议登录后再打开脚本,重启app等待脚本生效)
 #!openUrl=https://github.com/app2smile/rules
 # 功能: 1.去除播放广告 2.歌手/专辑列表正常展示 3.去除随机播放
-#!icon = https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Spotify.png
+#!icon = https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Spotify.png
 
 [Rule]
 AND,((OR,((DOMAIN-SUFFIX,spotify.com),(DOMAIN-SUFFIX,spotifycdn.com),(DOMAIN-SUFFIX,scdn.co),(DOMAIN-SUFFIX,spotify.com.edgesuite.net))),(PROTOCOL,QUIC)),REJECT
